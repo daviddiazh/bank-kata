@@ -13,9 +13,4 @@ public class Amount {
         return new Amount(amount);
     }
 
-    public String decimalFormatter(double amount){
-        DecimalFormat df = new DecimalFormat("########.##");
-        return df.format(amount);
-    }
-
 }

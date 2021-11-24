@@ -9,7 +9,7 @@ public class Statement {
     List<String> listaGuardada;
 
     public void statementTitle(PrintStream printer){
-        String title = "|   Date   | Credit |  Debit  |  Balance  |";
+        String title = "|   Date   | Credit  |  Debit   |  Balance   |";
         printer.println(title);
     }
 
