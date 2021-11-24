@@ -26,5 +26,4 @@ public class Statement {
             System.out.println(statementList.get(i));
         }
     }
-
 }

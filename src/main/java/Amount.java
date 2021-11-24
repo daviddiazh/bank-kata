@@ -12,5 +12,4 @@ public class Amount {
     private Amount amountOf(double amount){
         return new Amount(amount);
     }
-
 }
